@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(42, 71, 222)
+}
+
+#anfang-container {
+    background-image: url('./img/capaCartao.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Play', sans-serif;
+    height: 38.5rem;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    border-bottom: 3px solid white;
+
+}
+
+ h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 5px 5px 20px #000000, 0 0 10px black, 0 0 5px darkblue;
+
+}
+
+div > nav > ul{
+   margin-left: 4rem;
+   margin-right: 30rem;
+
+}
+
+nav {
+    padding-top: 15px;
+
+}
+
+#box-nav > nav >ul {
+    background-color: rgb(247,148,30);
+    list-style-type: none;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 10px;
+   
+}
+
+#box-nav > nav > ul > li {
+    float: left;
+    padding: 0px 3rem;
+
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 17pt;
+    padding: 10px 15px;
+    
+}
+
+#anfang-text {
+    font-size: 80px;
+    text-shadow: 5px 5px 20px #000000, 0 0 10px black, 0 0 5px darkblue;
+    padding: 35px 390px 0px 0px;
+
+}
+
+#box-agent  {
+    padding-left: 100px;
+    position: absolute;
+    align-self: flex-end;
+    padding: 35px 75px 50px 0px;
+    color: white;
+    text-shadow:
+               0 6px 10px rgba(0,0,0,.1),
+               0 0 10px rgba(0,0,0,.1),
+               0 7px 3px rgba(0,0,0,.3),
+               0 8px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+#agent-img {
+    width: 300px;
+    height: 270px;
+    border-radius: 50%;
+    box-shadow: black 2px 2px 20px 15px;
+}
+
+#box-agent > p {
+    font-family: 'Play', sans-serif;
+    font-size: 25px;
+    width: 22rem;
+    padding-top: 15px;
+}
+
+#anfang-box-button {
+    align-self: center;
+    padding-top: 180px;
+   
+ }
+
+#anfang-box-button > button {
+    padding: 15px;
+    border: 2px solid white;
+    background-color: rgb(247,148,30);
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+#anfang-icons {
+    align-self: flex-end;
+    font-size: 45px;
+    margin-right: 9rem;
+}
+
+#anfang-icons > i {
+    padding: 10px;
+
+}
+
+#karte-erste-heading > h2 {
+    font-size: 45px;
+    text-shadow: 5px 5px 20px #000000, 0 0 10px black, 0 0 5px darkblue;
+    color: white;
+    font-family: 'Play', sans-serif;
+    border-bottom: 3px solid white ;
+    width: fit-content;
+}
+
+#karte-erste-heading {
+   padding: 1rem 2rem 3rem;
+
+}
+
+#container-karte {
+    display: flex;
+    flex-flow: column;
+
+}
+
+
+
+
+
+.box-karte {
+    padding: 1rem 0rem 7rem 2rem;
+
+}
+
+
+
+.box-karte > img {
+    padding: 10px 10px 0px 0px;
+    border-radius: 30px;
+
+}
+
+.box-karte > p {
+    font-size: 15px;
+    text-shadow: 5px 5px 20px #000000, 0 0 10px black, 0 0 5px darkblue;
+    color: white;
+    font-family: 'Play', sans-serif;
+    border-bottom: 3px solid white ;
+    width: fit-content;
+    margin: 3px 0px 0px 8px;
+
+}
+
+.karte-art {
+    font-size: 30px;
+    color: white;
+    font-family: 'Play', sans-serif;
+    padding: 25px 0px 0px 8px;
+}
+
+.karte-list  {
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size:20px;
+    padding: 30px 0px 0px 8px;
+
+}   
+
+.karte-list > li {
+    padding: 10px;
+
+}
+
+.box-button {
+    padding: 95px 0px 0px 0px;
+
+}
+
+.box-button > button {
+    padding: 15px 225px 20px 10px;
+    background-color: rgb(247,148,30);
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    border:none;
+
+}
+
+
+
+
+
