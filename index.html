@@ -26,9 +26,9 @@
         <div id="box-nav">
          <nav>
             <ul>
-                <li><a href='#home'>Solicite seu cartão</a><i class="fas fa-credit-card"></i></li>
+                <li><a href='#cartao'>Solicite seu cartão</a><i class="fas fa-credit-card"></i></li>
                 <li><a href='#news'>Fale com o nosso consultor</a><i class="fas fa-user-tie"></i></li>
-                <li id="test"><a href='#historia'>Nossa história</a><i class="fas fa-book-reader" style='font-size: 20px'></i></li>
+                <li><a href='#historia'>Nossa história</a><i class="fas fa-book-reader" style='font-size: 20px'></i></li>
             </ul>
          </nav>
         </div>
@@ -36,17 +36,22 @@
         <h1 id="anfang-text">Cartões de crédito sem anuIdade!</h1>
 
         <div id="anfang-box-button">
-            <button type="submit">Faça o seu cartão</button>
+            <a href="#cartao"><button type="submit">Faça o seu cartão</button></a> 
         </div>
 
         <div class="icons">
-            <i class="fas fa-envelope"></i><i class="fab fa-whatsapp"></i><i class="fab fa-facebook-messenger"></i><i class="fab fa-facebook"></i>
+
+            <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+            <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i class="fab fa-facebook"></i></a>
+
         </div>
 
        </div>
 
     </section>
-
+    <!--Satz vor den Karten Boxes-->
     <div id="karte-erste-heading">  
         <h2>Escolha abaixo o cartão que mais combina com você :</h2>
     </div>
@@ -55,7 +60,7 @@
     <section id="container-karte">
 
          <!--Box wo die Karte beigefügt werden können-->
-         <div class="box-karte" class="flex-item" >
+         <div id="cartao" class="box-karte" class="flex-item" >
          <img src="./img/karte.png" alt="Cartão de crédito">
          <p> Foto ilustrativa. </p>
 
@@ -120,8 +125,8 @@
     <footer id="container-footer">
 
         <div class="footer-item">
-        <h2>Nossa História</h2>       
-        <p>Conheca mais sobre nós<i class="fas fa-book-reader"></i></p>
+        <h2 id="historia">Nossa História</h2>       
+        <p>Conheca mais sobre nós<span class="footer-icon-historia"><i class="fas fa-book-reader"></i></span></p>
         </div>
 
         <div  class="footer-item">

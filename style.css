@@ -112,7 +112,7 @@ li > a {
 
  }
 
-#anfang-box-button > button {
+#anfang-box-button > a > button {
     padding: 15px;
     border: 2px solid white;
     background-color: rgb(247,148,30);
@@ -126,23 +126,31 @@ li > a {
 
 }
 
+
 .icons {
     align-self: flex-end;
     font-size: 45px;
-    margin-right: 9rem;
+    padding-right: 9rem;
+    padding-top: 1.5rem;
+    
 }
 
-.icons > i {
-    padding: 10px;
+.icons > a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+
+.icons > a > i {
+
 
 }
 
 #karte-erste-heading > h2 {
     font-size: 45px;
-    text-shadow: 5px 5px 20px #000000, 0 0 10px black, 0 0 5px darkblue;
     color: white;
     font-family: 'Play', sans-serif;
-    border-bottom: 3px solid white ;
     width: fit-content;
 }
 
@@ -239,6 +247,12 @@ li > a {
     
 }
 
+#msg-wichtig > i {
+    padding-right: 1rem;
+    font-size: 35px;
+
+}
+
  #wichtig-paragraph {
     font-size: 20px;
     color: white;
@@ -257,21 +271,21 @@ li > a {
 }
 
 .footer-item:nth-child(1) {
-   padding: 3rem 5rem 6rem 3rem;
-   flex: 0 50%;
+   padding: 3rem 5rem 2rem 3rem;
+   flex: 0 75%;
    box-sizing: border-box;
 
 }
 
 .footer-item:nth-child(2) {
-    padding: 3rem 5rem 6rem 3rem;
-    flex: 0 50%;
+    padding: 3rem 0rem 2rem 3rem;
+    flex: 0 25%;
     box-sizing: border-box;
 
  }
 
  .footer-item:nth-child(3) {
-    padding: 3rem 5rem 2rem 3rem;
+    padding: 1rem 5rem 2rem 3rem;
     flex: 0 100%;
     box-sizing: border-box;
     text-align: center;
@@ -300,9 +314,16 @@ li > a {
 }
 
 .footer-icon > i {
-    padding: 0.5rem;
+    padding: 1.5rem 1rem 0rem 0rem;
     font-size: 45px;
     color: white;
 }
+
+.footer-icon-historia > i {
+    padding: 1.5rem 0rem 0rem 1rem;
+    font-size: 45px;
+    color: white;
+}
+
 
 
