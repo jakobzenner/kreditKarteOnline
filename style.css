@@ -45,10 +45,11 @@ nav {
     list-style-type: none;
     overflow: hidden;
     border-radius: 30px;
-    border: 2px solid white;
     box-sizing: border-box;
     padding: 12px;
     display:inline-block;
+    border: 2px solid white;
+
 
     
    
@@ -114,7 +115,6 @@ li > a {
 
 #anfang-box-button > a > button {
     padding: 15px;
-    border: 2px solid white;
     background-color: rgb(247,148,30);
     color: white;
     font-family: 'Play', sans-serif;
@@ -123,6 +123,8 @@ li > a {
     display: inline-block;
     text-decoration: none;
     border-radius: 30px;
+    border: 2px solid white;
+
 
 }
 
@@ -142,11 +144,6 @@ li > a {
 
 }
 
-.icons > a > i {
-
-
-}
-
 #karte-erste-heading > h2 {
     font-size: 45px;
     color: white;
@@ -159,26 +156,38 @@ li > a {
 
 }
 
+/* Slides*/
+.slide {
+    display:none;
+}
+
 #container-karte {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
+    justify-content: center;
+    padding: 3rem;
 
 }
 
 .box-karte {
-    padding: 1rem 0rem 7rem 2rem;
+    padding: 0rem 0rem 0rem 0rem;
+    
+}
 
+.flex-item:nth-child(1){
+    border: 3px solid white;
+    width: 900px;
 }
 
 
-.box-karte > img {
+#karte-img-box > img {
     padding: 10px 10px 0px 0px;
     border-radius: 30px;
 
 }
 
-.box-karte > p {
-    font-size: 15px;
+#karte-img-box > p {
+    font-size: 14px;
     text-shadow: 5px 5px 20px #000000, 0 0 10px black, 0 0 5px darkblue;
     color: white;
     font-family: 'Play', sans-serif;
@@ -188,18 +197,30 @@ li > a {
 
 }
 
-.karte-art {
+#container-karte-content {
+   display:flex;
+   padding: 2rem;
+   background-color: rgb(35, 54, 154);
+   border-radius:30px;
+   justify-content: center;
+   width:50%;
+
+}
+
+
+
+#karte-heading-content {
     font-size: 30px;
     color: white;
     font-family: 'Play', sans-serif;
-    padding: 25px 0px 0px 8px;
+    padding: 0px 0px 0px 5rem;
 }
 
 .karte-list  {
     color: white;
     font-family: 'Play', sans-serif;
     font-size:20px;
-    padding: 30px 0px 0px 8px;
+    padding: 2rem 0rem 0rem 5rem;
 
 }   
 
@@ -209,7 +230,8 @@ li > a {
 }
 
 .box-button {
-    padding: 95px 0px 0px 0px;
+    padding: 50px 0px 0px 5rem;
+    /* kann man rem und px einmischen?*/
 
 }
 
@@ -226,7 +248,7 @@ li > a {
 }
 
 .box-button > button > i  {
-    padding-left: 11rem;
+    padding-left: 1rem;
    
    }
 
