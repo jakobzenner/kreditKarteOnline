@@ -12,20 +12,26 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    font-family: 'Play', sans-serif;
     height: 42rem;
     display: flex;
     flex-flow: column;
     position: relative;
-    border-bottom: 3px solid white;
+    border-bottom: 5px solid white;
 
 }
 
- #anfang-container > h1 {
+.fa-cc-mastercard {
+    font-size: 3.2rem;
+    color: white;
+    padding-right: 1rem;
+}
+
+ #logo {
     padding-top: 30px;
     text-align: center;
-    font-size: 70px;
+    font-size: 55px;
     text-shadow: 5px 5px 20px #000000, 0 0 10px black, 0 0 5px darkblue;
+    font-family: 'Prompt', sans-serif;
 
 }
 
@@ -49,16 +55,19 @@ nav {
     padding: 12px;
     display:inline-block;
     border: 2px solid white;
-
-
-    
-   
+  
 }
 
 #box-nav > nav > ul > li {
     float: left;
     padding: 0rem 4.5rem 0rem 4.5rem;
-    
+    font-family: 'Josefin Sans', sans-serif; 
+
+}
+
+#box-nav > nav > ul > li > a:hover {
+    border-bottom: 2px solid white;
+    font-size: 2rem;
 
 }
 
@@ -67,13 +76,16 @@ li > a {
     color: white;
     font-size: 17pt;
     padding: 10px 15px;
+
     
 }
 
 #anfang-text {
-    font-size: 80px;
+    font-size: 70px;
+    padding: 35px 390px 0px 58px;
+    font-family: 'Josefin Sans', sans-serif;
     text-shadow: 5px 5px 20px #000000, 0 0 10px black, 0 0 5px darkblue;
-    padding: 35px 390px 0px 0px;
+
 
 }
 
@@ -100,12 +112,43 @@ li > a {
     box-shadow: black 2px 2px 20px 15px;
 }
 
-#box-agent > p {
-    font-family: 'Play', sans-serif;
+#box-agent > p{
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
-    width: 22rem;
+    width: 24rem;
     padding-top: 15px;
 }
+
+#animation-1 {
+    animation-name: olahidden;
+    animation-duration: 6s ;
+
+}
+
+@keyframes olahidden {
+    from {opacity: 0;}
+  to {color: white;}
+}
+
+#animation-2 {
+    animation-name: olahidden2;
+    animation-duration: 15s;
+  }
+  
+  @keyframes olahidden2 {
+    from {opacity: 0;}
+    to {color: white;}
+  }
+
+  #animation-3 {
+    animation-name: olahidden3;
+    animation-duration: 19s;
+  }
+  
+  @keyframes olahidden3 {
+    from {opacity: 0;}
+    to {color: white;}
+  }
 
 #anfang-box-button {
     align-self: center;
@@ -118,15 +161,26 @@ li > a {
     background-color: rgb(247,148,30);
     color: white;
     font-family: 'Play', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
     border-radius: 30px;
     border: 2px solid white;
+    font-family: 'Josefin Sans', sans-serif;
 
 
 }
+
+#anfang-box-button > a > button:focus {
+   outline: none
+
+}
+
+#anfang-box-button > a > button:hover {
+    background-color: rgb(218, 125, 11);
+ 
+ }
 
 
 .icons {
@@ -150,8 +204,10 @@ li > a {
     width: fit-content;
 }
 
-#karte-erste-heading {
-   padding: 1rem 2rem 3rem;
+.karte-erste-heading > h2 {
+   padding: 2rem 2rem 3rem 5rem;
+   font-family: 'Prompt', sans-serif;
+
 
 }
 
@@ -235,7 +291,7 @@ li > a {
 
 }
 
-.box-button > button {
+.box-button > a > button {
     padding: 10px 20px 15px 7px;
     background-color: rgb(247,148,30);
     color: white;
@@ -247,24 +303,25 @@ li > a {
 
 }
 
-.box-button > button > i  {
-    padding-left: 1rem;
+.box-button > a > button > i  {
+    padding-left: 2rem;
    
    }
 
 #msg-nachKateBox {
     font-size: 30px;
     color: white;
-    font-family: 'Play', sans-serif;
+    font-family: 'Prompt', sans-serif;
     text-align: center;
     padding-bottom: 3rem;
+    letter-spacing: 2px;
 
 }
 
 #msg-wichtig {
     font-size: 30px;
     color: white;
-    font-family: 'Play', sans-serif;
+    font-family: 'Prompt', sans-serif;
     padding: 2rem 0rem 1rem 2rem;
     
 }
@@ -276,77 +333,107 @@ li > a {
 }
 
  #wichtig-paragraph {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
-    font-family: 'Play', sans-serif;
+    font-family: 'Prompt', sans-serif;
     padding-left: 2rem;
     padding-bottom: 7rem;
+    letter-spacing: 2px
 }
+
 
 #container-footer {
     display:flex;
     flex-flow: row;
     flex-wrap: wrap;
-    background-color:rgb(25, 29, 124)
+    background-color:rgb(25, 29, 124);
+    color:white;
+    padding: 1rem 5rem 2rem 3rem;
 
 
 }
 
 .footer-item:nth-child(1) {
-   padding: 2rem 5rem 2rem 3rem;
-   flex: 0 75%;
+   flex: 0 36%;
    box-sizing: border-box;
 
 }
 
+#historia {
+    font-family: 'Prompt', sans-serif;
+
+}
+
 .footer-item:nth-child(2) {
-    padding: 2rem 0rem 2rem 3rem;
-    flex: 0 25%;
+    flex: 0 32%;
     box-sizing: border-box;
+    padding-left: 6rem;
+    padding-top: 1.5rem;
+    font-family: 'Prompt', sans-serif;
+
+
 
  }
 
  .footer-item:nth-child(3) {
-    padding: 0.5rem 5rem 1rem 3rem;
+    flex: 0 32%;
+    box-sizing: border-box;
+    padding-left: 18rem;
+    padding-top: 1.5rem;
+
+
+ }
+
+ #contato {
+    font-family: 'Prompt', sans-serif;
+
+ }
+
+
+
+ .footer-item:nth-child(4) {
     flex: 0 100%;
     box-sizing: border-box;
     text-align: center;
     font-size: 23px;
-    color: white;
-    font-family: 'Play', sans-serif;
+    font-family: 'Prompt', sans-serif;
     word-spacing: 8px;
+    padding-left: 2rem;
     
  }  
 
 .footer-item > h2 {
     font-size: 35px;
-    color: white;
-    font-family: 'Play', sans-serif;
-    text-decoration: underline;
 
     
 }
 
 .footer-item > p {
     font-size: 20px;
-    color: white;
-    font-family: 'Play', sans-serif;
+    font-family:'Open Sans', sans-serif;
     padding-top: 1rem;
-    padding-right: 48rem;
+    padding-right: 5rem;
+    word-spacing: 2px;
     
 }
 
-.footer-icon > i {
+.footer-icon > a > i {
     padding: 1rem 1rem 0rem 0rem;
     font-size: 45px;
-    color: white;
 }
 
 .footer-icon-historia > i {
     padding: 1.5rem 0rem 0rem 1rem;
     font-size: 45px;
-    color: white;
 }
+
+.fa-copyright {
+    padding-right: 10px;;
+}
+
+
+
+
 
 
 

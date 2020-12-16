@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -17,18 +20,18 @@
         <div id="anfang-container">
 
 
-        <h1>Atila Cartões</h1>
+        <h1 id="logo"><i class="fab fa-cc-mastercard"></i>Atila Cartões</h1>
 
         <div id="box-agent">
             <img src="./img/agent.jpg"  id="agent-img" alt="Foto do atendente online">
-            <p>Olá , eu sou seu consultor autorizado do Atlia Cartões!</p>
+           <p id="animation-1">Olá ,</p><p id="animation-2"> eu sou seu consultor </p><p id="animation-3">autorizado do Atlia Cartões!</p>
         </div>
        
         <div id="box-nav">
          <nav>
             <ul>
                 <li><a href='#karte'>Solicite seu cartão</a><i class="fas fa-credit-card"></i></li>
-                <li><a href='#news'>Fale com o nosso consultor</a><i class="fas fa-user-tie"></i></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target='_blank'>Fale com o nosso consultor</a><i class="fas fa-user-tie"></i></li>
                 <li><a href='#historia'>Nossa história</a><i class="fas fa-book-reader" style='font-size: 20px'></i></li>
             </ul>
          </nav>
@@ -37,12 +40,12 @@
         <h1 id="anfang-text">Cartões de crédito sem anuidade!</h1>
 
         <div id="anfang-box-button">
-            <a href="#cartao"><button type="submit">Faça o seu cartão</button></a> 
+            <a href="#karte"><button type="submit">Faça o seu cartão</button></a> 
         </div>
 
         <div class="icons">
 
-            <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:danilo.brito0208@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
             <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target="_blank"><i class="fab fa-whatsapp"></i></a>
             <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
             <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -83,7 +86,7 @@
          </ul>
          
          <div class="box-button">
-         <button>Solicitar cartão<i class="fas fa-arrow-right"></i></button>
+          <a href="karte.html"><button>Solicitar cartão<i class="fas fa-arrow-right"></i></button></a>
          </div>
 
         </div>
@@ -107,7 +110,7 @@
              </ul>
              
              <div class="box-button">
-             <button>Solicitar cartão<i class="fas fa-arrow-right"></i></button>
+              <a href="karte.html"><button>Solicitar cartão<i class="fas fa-arrow-right"></i></button></a>
              </div>
     
             </div>
@@ -131,7 +134,7 @@
              </ul>
              
              <div class="box-button">
-             <button>Solicitar cartão<i class="fas fa-arrow-right"></i></button>
+              <a href="karte.html"><button>Solicitar cartão<i class="fas fa-arrow-right"></i></button></a>
              </div>
     
             </div>
@@ -163,22 +166,29 @@
         
 
 
-    <footer id="container-footer">
+            <footer id="container-footer">
 
-        <div class="footer-item">
-        <h2 id="historia">Nossa História<span class="footer-icon-historia"><i class="fas fa-book-reader"></i></span></h2>       
-        <p>Atila Cartões surgiu no estado do Rio Grande do Sul, no ano de 2010 e desde então vem trazendo credibilidade e segurança para milhões de brasileiros.</p>
-        </div>
-
-        <div  class="footer-item">
-        <h2>Contato</h2> <br>
-        <span class="footer-icon"><i class="fas fa-envelope"></i><i class="fab fa-whatsapp"></i><i class="fab fa-facebook-messenger"></i><i class="fab fa-facebook"></i></span>
-       </div>
+              <div class="footer-item">
+              <h2 id="historia">Nossa História<span class="footer-icon-historia"><i class="fas fa-book-reader"></i></span></h2>       
+              <p>Atila Cartões surgiu no estado do Rio Grande do Sul, no ano de 2010 e desde então vem trazendo credibilidade e segurança para milhões de brasileiros.</p>
+              </div>
           
-       <h1 class="footer-item"><i class="fas fa-copyright"></i>Copyright 2020 Jakob Zenner </h1> 
-
-
-    </footer>
+              <h1 id="header-h1" class="footer-item"><a href="index.html"><i class="fab fa-cc-mastercard"></i>Atila Cartões</a></h1>
+          
+              <div  class="footer-item">
+              <h2 id="contato">Contato</h2> <br>
+              <span class="footer-icon">
+                  <a href="mailto:danilo.brito0208@gmail.com" target="_blank" target="_blank"><i class="fas fa-envelope"></i></a>
+                  <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                  <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+                  <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i class="fab fa-facebook"></i></a>
+              </span>
+             </div>
+                
+             <h1 class="footer-item"><i class="fas fa-copyright"></i>Copyright 2020 Jakob Zenner </h1> 
+          
+          
+          </footer>
 
     <script>
         var slideIndex = 1;
