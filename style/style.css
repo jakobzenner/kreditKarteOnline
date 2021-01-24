@@ -597,7 +597,7 @@ li > a {
           .topnav a {
            font-family: 'Josefin Sans', sans-serif; 
            color: white;
-           padding: 11px 16px;
+           padding: 26px 16px;
            text-decoration: none;
            font-size: 20px;
            display: block;
@@ -623,7 +623,7 @@ li > a {
 
      #box-agent  {
         position: relative;
-        padding: 0 30% 0 30%;
+        padding: 5% 30% 0 30%;
       }
 
      #box-agent > p {
@@ -653,8 +653,8 @@ li > a {
 
     .icons {
         font-size: 30px;
-        padding-right: 25%;
-        padding-left: 25%;
+        padding-right: 24%;
+        padding-left: 24%;
         padding-top: 10px;
 
     }
