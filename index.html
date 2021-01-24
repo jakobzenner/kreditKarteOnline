@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@900&display=swap" rel="stylesheet">
@@ -19,12 +20,29 @@
     <section>
         <div id="anfang-container">
 
-
+        <div class="logo-box">
         <h1 id="logo"><i class="fab fa-cc-mastercard"></i>Atila Cartões</h1>
+        </div>
+
+        <!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" id="logo">Atila Cartões</a>
+  <div id="links">
+    <a href="#karte">Solicite seu cartão<i class="fas fa-credit-card"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target='_blank'>Falar com o consultor<i class="fas fa-user-tie"></i></a>
+    <a href="#historia">Nossa história<i class="fas fa-book-reader" style='font-size: 20px'></i></a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
 
         <div id="box-agent">
+            <div>
             <img src="./img/agent.jpg"  id="agent-img" alt="Foto do atendente online">
-           <p id="animation-1">Olá ,</p><p id="animation-2"> eu sou seu consultor </p><p id="animation-3">autorizado do Atlia Cartões!</p>
+            </div>
+           <p id="animation-1">Olá , eu sou seu consultor autorizado do Atlia Cartões!</p>
         </div>
        
         <div id="box-nav">
@@ -36,7 +54,8 @@
             </ul>
          </nav>
         </div>
-
+        
+      
         <h1 id="anfang-text">Cartões de crédito sem anuidade!</h1>
 
         <div id="anfang-box-button">
@@ -232,6 +251,29 @@
           x[myIndex-1].style.display = "inline-flex";  
           setTimeout(carousel, 3000); // Change image every 2 seconds
         }
+
+        function myFunction() {
+  var x = document.getElementById("links");
+  let b = document.getElementById("box-agent");
+  let logo = document.querySelector("a#logo");
+
+  if ((x.style.display  === "block") || (b.style.display === "none") || (logo.style.backgroundColor === "rgb(35, 54, 154)")) {
+    x.style.display = "none";
+    b.style.display = "block";
+    logo.style.backgroundColor = "rgb(35, 54, 154,0)";
+  }  
+  else {
+    x.style.display = "block";
+    b.style.display = "none";
+    logo.style.backgroundColor = "rgb(35, 54, 154)";
+
+
+
+  }
+}
+
+
+
         </script>
 </body>
 </html>
