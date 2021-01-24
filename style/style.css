@@ -647,6 +647,8 @@ li > a {
         background-size: 100% 400px;
         height: 400px;
         border-bottom: 4px solid white;
+        display:flex;
+        justify-content: center;
 }
 
     #anfang-box-button {
@@ -656,8 +658,10 @@ li > a {
 
     .icons {
         font-size: 30px;
-        padding-right: 5.5rem;
+        padding-right: 25%;
+        padding-left: 25%;
         padding-top: 10px;
+
     }
 
     /* Hier beginnt die Karte section: */
@@ -750,6 +754,11 @@ li > a {
 
     }
 
+    #container-footer {
+        padding: 1rem 3rem 2rem 3rem;
+        justify-content: center;
+    }
+
     .footer-item > h2 {
         font-size: 20px;
 
@@ -785,7 +794,7 @@ li > a {
 
     #header-h1 {
         font-size: 20px;
-        padding:10px 0 0 0;
+        padding:10px 37% 0 0;
 
     }
 
@@ -821,7 +830,7 @@ li > a {
 
     .footer-icon > a > i {
        font-size: 27px;
-       padding:0 0px 0 30px;
+       padding:0 1rem 0 1rem;
 
     }
 
