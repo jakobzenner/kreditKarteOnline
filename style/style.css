@@ -535,7 +535,7 @@ li > a {
     }
 
     #logo {
-        padding: 15px 0px 20px 30px;
+        padding: 15px 0px 10px 30px;
         font-size:25px;
   
       }
@@ -597,7 +597,7 @@ li > a {
           .topnav a {
            font-family: 'Josefin Sans', sans-serif; 
            color: white;
-           padding: 15px 1rem 15px 30px;
+           padding: 10px 1rem 10px 30px;
            text-decoration: none;
            font-size: 20px;
            display: block;
@@ -623,7 +623,7 @@ li > a {
 
      #box-agent  {
         position: relative;
-        padding: 5% 30% 0 30%;
+        padding: 0% 30% 0 30%;
       }
 
      #box-agent > p {
@@ -634,7 +634,7 @@ li > a {
   
       #anfang-text {
         font-size:20px;
-        padding: 20px 0px 0px 25px;
+        padding: 15px 0px 0px 25px;
         margin:0;
     }
 
