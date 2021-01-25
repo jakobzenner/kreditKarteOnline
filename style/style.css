@@ -833,7 +833,18 @@ li > a {
     }
 
 
- 
+}
+
+@media only screen and (max-width: 360px) {
+    .icons {
+        font-size: 30px;
+        padding-right: 24%;
+        padding-left: 24%;
+        padding-top: 10px;
+        width: 100%;
+
+    }
+
 
 }
 

@@ -369,7 +369,7 @@ input[type=submit] {
 
 .footer-icon > a > i {
   padding: 0rem 1rem 0rem 1rem;
-  font-size: 45px;
+  font-size: 27px;
 
 }
 
@@ -398,11 +398,69 @@ input[type=submit] {
   font-size: 14px;
   word-spacing: 4px;
   padding-left: 0;
-  padding-top: 10px;
+  padding-top: 20px;
+  margin: 0;
 
 }
 
+    }
+
+    @media only screen and (max-width: 360px) {
+     
+      h1 {
+        font-size: 18px;
+        width:80%;
 
     }
-    
+
+    #div-heading {
+      padding: 1rem;
+      padding-right: 2rem;
+  }
+
+  input[placeholder] {
+    font-size: 13px;
+
+    }
+
+    label {
+      padding: 2px 5px;
+      font-size: 15px;
+  }
+
+  .div-select > select {
+    font-size: 15px;
+
+}
+
+input[type=submit] {
+  padding: 4px 2px;
+  font-size: 13px;
+
+}
+
+input[type=submit] {
+  width: 20%;
+  padding: 7px 10px;
+  font-size: 15px;
+
+}
+
+#formular-container {
+  padding-bottom: 0 0 5rem 0;
+
+}
+
+#container-footer {
+  padding: 1rem 1.5rem 2rem 1.5rem;
+
+}
+
+#historia {
+  text-align: left;
   
+}
+
+
+    
+    }
