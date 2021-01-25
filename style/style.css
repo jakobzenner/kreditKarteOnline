@@ -535,10 +535,11 @@ li > a {
     }
 
     #logo {
-        padding: 15px 0px 10px 30px;
+        padding: 25px 0px 25px 30px;
         font-size:25px;
   
       }
+
 
     .logo-box  h1  i {
        display: none;
@@ -597,7 +598,7 @@ li > a {
           .topnav a {
            font-family: 'Josefin Sans', sans-serif; 
            color: white;
-           padding: 10px 1rem 10px 30px;
+           padding: 15px 1rem 10px 30px;
            text-decoration: none;
            font-size: 20px;
            display: block;
@@ -608,7 +609,7 @@ li > a {
      display: block;
      position: absolute;
      right: 0;
-     top: 0;
+     top: 15px;
 
    
    }
@@ -623,7 +624,7 @@ li > a {
 
      #box-agent  {
         position: relative;
-        padding: 0% 30% 0 30%;
+        padding: 10% 30% 0 30%;
       }
 
      #box-agent > p {

@@ -1,5 +1,6 @@
 * {
     margin:0px;
+    padding:0;
   }
   
   body {
@@ -226,6 +227,182 @@
         padding-right: 10px;;
     }
     
-    
+
+    /* Breakpoints : */
+
+    @media only screen and (max-width: 414px) {
+      header {
+        padding: 1rem 1rem 1rem 1rem;
+        margin:0;
+
+    }
+
+    #header-h1 {
+      font-size: 20px;
+      width: 100%;
+
+  }
+
+  .fa-cc-mastercard:before {
+    content: "\f1f1";
+    font-size:20px;
+
+}
+
+#div-heading {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+
+}
+
+h1 {
+  font-family: 'Prompt', sans-serif;
+  line-height: 1.2 !important;
+  font-weight: bold;
+  letter-spacing: -.010em;
+  clear: both;
+  color: white;
+  font-size: 35px;
+  width: 100%;
+
+}
+
+#karte-input {
+  padding: 5px;
+  width: 80%;
+
+}
+
+input[type=text], [type=number], [type=email], [type=tel] {
+  width: 100%;
+  padding: 6px 10px;
+  
+}
+
+input[placeholder] {
+  font-size: 16px;
+
+}
+
+label {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 18px;
+
+}
+
+.div-select > select {
+  font-size: 18px;
+  
+}
+
+input[type=submit] {
+  padding: 7px 5px;
+  font-size: 15px;
+
+}
+
+#container-footer {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+ 
+
+}
+
+.footer-item:nth-child(1) {
+  flex: 0 1 auto;
+  text-align: justify;
+  height:220px;
+ 
+}
+
+.footer-item:nth-child(2) {
+  flex: 0 1 auto;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+  padding-left: 0;
+  padding-top: 20px;
+
+}
+
+.footer-item:nth-child(3) {
+  flex: 0 1 auto;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+  padding-left: 15px;
+  padding-top: 0;
+
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+  font-size:20px;
+  padding: 0;
+
+
+}
+
+.fa-whatsapp:before {
+  content: "\f232";
+  font-size:20px;
+  padding: 0;
+
+}
+
+.fa-facebook-messenger:before {
+  content: "\f39f";
+  font-size:20px;
+  padding: 0;
+
+
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+  font-size:20px;
+  padding: 0;
+
+
+}
+
+.footer-icon > a > i {
+  padding: 0rem 1rem 0rem 1rem;
+  font-size: 45px;
+
+}
+
+.footer-item > h2 {
+  font-size: 20px;
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:15px;
+
+}
+
+.footer-item > p {
+  font-size: 17px;
+  padding: 0;
+
+}
+
+.fa-book-reader:before {
+  content: "\f5da";
+  font-size:20px;
+
+}
+
+.footer-item:nth-child(4) {
+  flex: 0 1 auto;
+  font-size: 14px;
+  word-spacing: 4px;
+  padding-left: 0;
+  padding-top: 10px;
+
+}
+
+
+    }
     
   
