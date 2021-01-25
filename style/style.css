@@ -848,3 +848,82 @@ li > a {
 
 }
 
+@media only screen and (max-width: 320px) {
+    .icons {
+        font-size: 30px;
+        padding-right: 24%;
+        padding-left: 26%;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    #anfang-text {
+        font-size: 17px;
+        padding: 15px 0px 0px 25px;
+        margin: 0;
+    }
+
+    #agent-img {
+        height: 130px;
+        width: 140px;
+        border-radius: 50%;
+        margin-left: 0;
+    }
+
+    #box-agent {
+        position: relative;
+        padding: 5% 30% 0 30%;
+    }
+
+    #anfang-box-button > a > button {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    #header-h1 {
+        font-size: 20px;
+        padding: 20px 25% 0 0;
+
+    }
+
+    .footer-icon > a > i {
+        font-size: 25px;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .footer-item:nth-child(4) {
+        font-size: 12px;
+      
+    }
+
+    .fa-envelope:before {
+        content: "\f0e0";
+        font-size: 23px;
+
+    }
+
+    .fa-whatsapp:before {
+        content: "\f232";
+        font-size: 23px;
+
+    }
+
+    .fa-facebook-messenger:before {
+        content: "\f39f";
+        font-size: 23px;
+
+    }
+
+    .fa-facebook:before {
+        content: "\f09a";
+        font-size: 23px;
+
+    }
+
+
+
+
+
+
+}
+

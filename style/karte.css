@@ -478,3 +478,50 @@ input[type=submit] {
 
     
     }
+
+    @media only screen and (max-width: 320px) {
+      #karte-input {
+        padding: 3px;
+        width: 80%;
+    }
+
+    input[placeholder] {
+      font-size: 12px;
+
+  }
+
+  label {
+    padding: 2px 3px;
+    font-size: 13px;
+
+}
+
+.div-select > select {
+  font-size: 12px;
+
+}
+  input[type=submit] {
+    padding: 4px 5px;
+    font-size: 13px;
+
+}
+
+.footer-icon {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+.footer-item:nth-child(4) {
+  font-size: 11px;
+  padding-left: 1rem;
+  
+}
+
+
+  
+  
+  
+  }
+  
+  
