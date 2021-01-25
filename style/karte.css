@@ -333,6 +333,8 @@ input[type=submit] {
   font-family: 'Prompt', sans-serif;
   padding-left: 15px;
   padding-top: 0;
+  text-align: center;
+
 
 }
 
@@ -375,7 +377,6 @@ input[type=submit] {
 
 .footer-item > h2 {
   font-size: 20px;
-  text-align: center;
   padding-top:20px;
   padding-bottom:15px;
 
@@ -458,9 +459,22 @@ input[type=submit] {
 
 #historia {
   text-align: left;
-  
+
 }
 
+
+
+.footer-icon {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+.footer-item:nth-child(4) {
+  padding-left: 0.5rem;
+ 
+
+}
 
     
     }
