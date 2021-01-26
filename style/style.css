@@ -832,6 +832,10 @@ li > a {
 
     }
 
+    .box-button {
+        padding: 0 0 0 50%;
+    }
+
 
 }
 
@@ -843,6 +847,10 @@ li > a {
         padding-top: 10px;
         width: 100%;
 
+    }
+
+    .box-button {
+        padding: 0 0 0 50%;
     }
 
 
@@ -918,6 +926,10 @@ li > a {
         content: "\f09a";
         font-size: 23px;
 
+    }
+
+    .box-button {
+        padding: 0 0 0 40%;
     }
 
 
