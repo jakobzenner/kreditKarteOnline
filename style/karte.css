@@ -1,28 +1,24 @@
 * {
-    margin:0px;
-    padding:0;
-  }
-  
-  body {
-      background-color:#058ce1;
-      
-  }
-  
-  header {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    background-color: #058ce1;
+}
+
+header {
     border-bottom: 1px solid;
     background-color: #1170ac;
-    padding:3rem 0rem 2rem 6rem;
+    padding: 3rem 0rem 2rem 6rem;
+}
 
-  
-  }
+a {
+    text-decoration: none;
+    color: white;
+}
 
-
-  a {
-      text-decoration: none;
-      color: white;
-  }
-
-  #header-h1 {
+#header-h1 {
     font-family: 'Prompt', sans-serif;
     line-height: 1.2 !important;
     font-weight: bold;
@@ -30,498 +26,378 @@
     clear: both;
     color: white;
     font-size: 45px;
-    
-  
-  }
+}
 
-  .fa-cc-mastercard {
-      font-size: 44px;
-      color: white;
-      padding-right: 0.5rem;
-  }
-  
-  #div-heading{
-    display:flex;
-    justify-content: center;
-    padding: 4rem
-  
-  }
-  
-  h1 {
-      font-family: 'Prompt', sans-serif;
-      line-height: 1.2 !important;
-      font-weight: bold;
-      letter-spacing: -.010em;
-      clear: both;
-      color: white;
-      font-size: 45px;
-      width:50%;
-    
-    }
-  
-  input[placeholder] {
-      font-size: 27px;
-      font-family:'Open Sans', sans-serif;
-  
-  
-      }
-  
-  input[type=text],[type=number], [type=email], [type=tel]{
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border-bottom: 1px solid #ccc;
-      box-sizing: border-box;
-      border-width:0px 0px 1px 0px;
-  
-    }
-  
-    input:focus{
-      outline: none;
-  }
-    
-    input[type=submit] {
-      float: right;
-      width: 30%;
-      background-color: #f7941e;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-family:'Open Sans', sans-serif;
-      font-size:20px;
-      font-weight: bold;
-    }
-    
-    input[type=submit]:hover {
-      background-color: #058ce1;
-    }
-    
-    #karte-input {
-      border-radius: 5px;
-      background-color: white;
-      padding: 20px;
-      width:35%;
-      
-    }
-  
-    label {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border-bottom: 1px solid #ccc;
-      box-sizing: border-box;
-      border-width:0px 0px 1px 0px;
-      font-size: 27px;
-      font-family:'Open Sans', sans-serif;
-      color: rgb(118, 118, 118);
-  
-  
-    }
-  
-    .div-select {
-      display: flex;
-    }
-  
-    .div-select > select  {
-      border: none;
-      font-family:'Open Sans', sans-serif;
-      font-size: 27px;
-      color: rgb(118, 118, 118);
-      margin: 4px 0 8px;
-  
-    }
-  
-  
-  
-    #formular-container {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 5rem;
-  
-  
-    }
-
-    #container-footer {
-        display:flex;
-        flex-flow: row;
-        flex-wrap: wrap;
-        background-color:rgb(25, 29, 124);
-        color:white;
-        padding: 1rem 5rem 2rem 3rem;
-
-    
-    
-    }
-    
-    .footer-item:nth-child(1) {
-       flex: 0 36%;
-       box-sizing: border-box;
-       font-family: 'Prompt', sans-serif;
-
-    
-    }
-    
-    .footer-item:nth-child(2) {
-        flex: 0 32%;
-        box-sizing: border-box;
-        font-family: 'Prompt', sans-serif;
-        padding-left: 6rem;
-        padding-top: 1.5rem;
-
-    
-     }
-
-     .footer-item:nth-child(3) {
-        flex: 0 32%;
-        box-sizing: border-box;
-        font-family: 'Prompt', sans-serif;
-        padding-left: 18rem;
-        padding-top: 1.5rem;
-
-
-    
-     }
-    
-     .footer-item:nth-child(4) {
-        flex: 0 100%;
-        box-sizing: border-box;
-        text-align: center;
-        font-size: 23px;
-        font-family: 'Prompt', sans-serif;
-        word-spacing: 8px;
-        padding-left: 2rem;
-        
-     }  
-    
-    .footer-item > h2 {
-        font-size: 35px;
-    
-        
-    }
-    
-    .footer-item > p {
-        font-size: 20px;
-        font-family:'Open Sans', sans-serif;
-        padding-top: 1rem;
-        padding-right: 5rem;
-        word-spacing: 2px;
-        
-    }
-    
-    .footer-icon > a > i {
-        padding: 1rem 1rem 0rem 0rem;
-        font-size: 45px;
-    }
-    
-    .footer-icon-historia > i {
-        padding: 1.5rem 0rem 0rem 1rem;
-        font-size: 45px;
-    }
-
-    .fa-copyright {
-        padding-right: 10px;;
-    }
-    
-
-    /* Breakpoints : */
-
-    @media only screen and (max-width: 414px) {
-      header {
-        padding: 1rem 1rem 1rem 1rem;
-        margin:0;
-
-    }
-
-    #header-h1 {
-      font-size: 20px;
-      width: 100%;
-
-  }
-
-  .fa-cc-mastercard:before {
-    content: "\f1f1";
-    font-size:20px;
-
+.fa-cc-mastercard {
+    font-size: 44px;
+    color: white;
+    padding-right: 0.5rem;
 }
 
 #div-heading {
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
-
+    display: flex;
+    justify-content: center;
+    padding: 4rem
 }
 
 h1 {
-  font-family: 'Prompt', sans-serif;
-  line-height: 1.2 !important;
-  font-weight: bold;
-  letter-spacing: -.010em;
-  clear: both;
-  color: white;
-  font-size: 35px;
-  width: 100%;
-
-}
-
-#karte-input {
-  padding: 5px;
-  width: 80%;
-
-}
-
-input[type=text], [type=number], [type=email], [type=tel] {
-  width: 100%;
-  padding: 6px 10px;
-  
+    font-family: 'Prompt', sans-serif;
+    line-height: 1.2 !important;
+    font-weight: bold;
+    letter-spacing: -.010em;
+    clear: both;
+    color: white;
+    font-size: 45px;
+    width: 50%;
 }
 
 input[placeholder] {
-  font-size: 16px;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+}
 
+input[type=text],
+[type=number],
+[type=email],
+[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    border-width: 0px 0px 1px 0px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    float: right;
+    width: 30%;
+    background-color: #f7941e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #058ce1;
+}
+
+#karte-input {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 35%;
 }
 
 label {
-  width: 100%;
-  padding: 6px 10px;
-  font-size: 18px;
-
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    border-width: 0px 0px 1px 0px;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(118, 118, 118);
 }
 
-.div-select > select {
-  font-size: 18px;
-  
+.div-select {
+    display: flex;
 }
 
-input[type=submit] {
-  padding: 7px 5px;
-  font-size: 15px;
-
-}
-
-#container-footer {
-  display: flex;
-  flex-flow: column;
-  flex-wrap: wrap;
- 
-
-}
-
-.footer-item:nth-child(1) {
-  flex: 0 1 auto;
-  text-align: justify;
-  height:220px;
- 
-}
-
-.footer-item:nth-child(2) {
-  flex: 0 1 auto;
-  box-sizing: border-box;
-  font-family: 'Prompt', sans-serif;
-  padding-left: 0;
-  padding-top: 20px;
-
-}
-
-.footer-item:nth-child(3) {
-  flex: 0 1 auto;
-  box-sizing: border-box;
-  font-family: 'Prompt', sans-serif;
-  padding-left: 15px;
-  padding-top: 0;
-  text-align: center;
-
-
-}
-
-.fa-envelope:before {
-  content: "\f0e0";
-  font-size:20px;
-  padding: 0;
-
-
-}
-
-.fa-whatsapp:before {
-  content: "\f232";
-  font-size:20px;
-  padding: 0;
-
-}
-
-.fa-facebook-messenger:before {
-  content: "\f39f";
-  font-size:20px;
-  padding: 0;
-
-
-}
-
-.fa-facebook:before {
-  content: "\f09a";
-  font-size:20px;
-  padding: 0;
-
-
-}
-
-.footer-icon > a > i {
-  padding: 0rem 1rem 0rem 1rem;
-  font-size: 27px;
-
-}
-
-.footer-item > h2 {
-  font-size: 20px;
-  padding-top:20px;
-  padding-bottom:15px;
-
-}
-
-.footer-item > p {
-  font-size: 17px;
-  padding: 0;
-
-}
-
-.fa-book-reader:before {
-  content: "\f5da";
-  font-size:20px;
-
-}
-
-.footer-item:nth-child(4) {
-  flex: 0 1 auto;
-  font-size: 14px;
-  word-spacing: 4px;
-  padding-left: 0;
-  padding-top: 20px;
-  margin: 0;
-
-}
-
-    }
-
-    @media only screen and (max-width: 360px) {
-     
-      h1 {
-        font-size: 18px;
-        width:80%;
-
-    }
-
-    #div-heading {
-      padding: 1rem;
-      padding-right: 2rem;
-  }
-
-  input[placeholder] {
-    font-size: 13px;
-
-    }
-
-    label {
-      padding: 2px 5px;
-      font-size: 15px;
-  }
-
-  .div-select > select {
-    font-size: 15px;
-
-}
-
-input[type=submit] {
-  padding: 4px 2px;
-  font-size: 13px;
-
-}
-
-input[type=submit] {
-  width: 20%;
-  padding: 7px 10px;
-  font-size: 15px;
-
+.div-select>select {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    color: rgb(118, 118, 118);
+    margin: 4px 0 8px;
 }
 
 #formular-container {
-  padding-bottom: 0 0 5rem 0;
-
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
 }
 
 #container-footer {
-  padding: 1rem 1.5rem 2rem 1.5rem;
-
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    background-color: rgb(25, 29, 124);
+    color: white;
+    padding: 1rem 5rem 2rem 3rem;
 }
 
-#historia {
-  text-align: left;
-
+.footer-item:nth-child(1) {
+    flex: 0 36%;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
 }
 
+.footer-item:nth-child(2) {
+    flex: 0 32%;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    padding-left: 6rem;
+    padding-top: 1.5rem;
+}
 
-
-.footer-icon {
-  padding-left: 2rem;
-  padding-right: 2rem;
-
+.footer-item:nth-child(3) {
+    flex: 0 32%;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    padding-left: 18rem;
+    padding-top: 1.5rem;
 }
 
 .footer-item:nth-child(4) {
-  padding-left: 0.5rem;
- 
-
+    flex: 0 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Prompt', sans-serif;
+    word-spacing: 8px;
+    padding-left: 2rem;
 }
 
-    
-    }
+.footer-item>h2 {
+    font-size: 35px;
+}
 
-    @media only screen and (max-width: 320px) {
-      #karte-input {
+.footer-item>p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    word-spacing: 2px;
+}
+
+.footer-icon>a>i {
+    padding: 1rem 1rem 0rem 0rem;
+    font-size: 45px;
+}
+
+.footer-icon-historia>i {
+    padding: 1.5rem 0rem 0rem 1rem;
+    font-size: 45px;
+}
+
+.fa-copyright {
+    padding-right: 10px;
+    ;
+}
+
+
+/* Breakpoints : */
+
+@media only screen and (max-width: 414px) {
+    header {
+        padding: 1rem 1rem 1rem 1rem;
+        margin: 0;
+    }
+    #header-h1 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .fa-cc-mastercard:before {
+        content: "\f1f1";
+        font-size: 20px;
+    }
+    #div-heading {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    h1 {
+        font-family: 'Prompt', sans-serif;
+        line-height: 1.2 !important;
+        font-weight: bold;
+        letter-spacing: -.010em;
+        clear: both;
+        color: white;
+        font-size: 35px;
+        width: 100%;
+    }
+    #karte-input {
+        padding: 5px;
+        width: 80%;
+    }
+    input[type=text],
+    [type=number],
+    [type=email],
+    [type=tel] {
+        width: 100%;
+        padding: 6px 10px;
+    }
+    input[placeholder] {
+        font-size: 16px;
+    }
+    label {
+        width: 100%;
+        padding: 6px 10px;
+        font-size: 18px;
+    }
+    .div-select>select {
+        font-size: 18px;
+    }
+    input[type=submit] {
+        padding: 7px 5px;
+        font-size: 15px;
+    }
+    #container-footer {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+    }
+    .footer-item:nth-child(1) {
+        flex: 0 1 auto;
+        text-align: justify;
+        height: 220px;
+    }
+    .footer-item:nth-child(2) {
+        flex: 0 1 auto;
+        box-sizing: border-box;
+        font-family: 'Prompt', sans-serif;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .footer-item:nth-child(3) {
+        flex: 0 1 auto;
+        box-sizing: border-box;
+        font-family: 'Prompt', sans-serif;
+        padding-left: 15px;
+        padding-top: 0;
+        text-align: center;
+    }
+    .fa-envelope:before {
+        content: "\f0e0";
+        font-size: 20px;
+        padding: 0;
+    }
+    .fa-whatsapp:before {
+        content: "\f232";
+        font-size: 20px;
+        padding: 0;
+    }
+    .fa-facebook-messenger:before {
+        content: "\f39f";
+        font-size: 20px;
+        padding: 0;
+    }
+    .fa-facebook:before {
+        content: "\f09a";
+        font-size: 20px;
+        padding: 0;
+    }
+    .footer-icon>a>i {
+        padding: 0rem 1rem 0rem 1rem;
+        font-size: 27px;
+    }
+    .footer-item>h2 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .footer-item>p {
+        font-size: 17px;
+        padding: 0;
+    }
+    .fa-book-reader:before {
+        content: "\f5da";
+        font-size: 20px;
+    }
+    .footer-item:nth-child(4) {
+        flex: 0 1 auto;
+        font-size: 14px;
+        word-spacing: 4px;
+        padding-left: 0;
+        padding-top: 20px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 18px;
+        width: 80%;
+    }
+    #div-heading {
+        padding: 1rem;
+        padding-right: 2rem;
+    }
+    input[placeholder] {
+        font-size: 13px;
+    }
+    label {
+        padding: 2px 5px;
+        font-size: 15px;
+    }
+    .div-select>select {
+        font-size: 15px;
+    }
+    input[type=submit] {
+        padding: 4px 2px;
+        font-size: 13px;
+    }
+    input[type=submit] {
+        width: 20%;
+        padding: 7px 10px;
+        font-size: 15px;
+    }
+    #formular-container {
+        padding-bottom: 0 0 5rem 0;
+    }
+    #container-footer {
+        padding: 1rem 1.5rem 2rem 1.5rem;
+    }
+    #historia {
+        text-align: left;
+    }
+    .footer-icon {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .footer-item:nth-child(4) {
+        padding-left: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #karte-input {
         padding: 3px;
         width: 80%;
     }
-
     input[placeholder] {
-      font-size: 12px;
-
-  }
-
-  label {
-    padding: 2px 3px;
-    font-size: 13px;
-
+        font-size: 12px;
+    }
+    label {
+        padding: 2px 3px;
+        font-size: 13px;
+    }
+    .div-select>select {
+        font-size: 12px;
+    }
+    input[type=submit] {
+        padding: 4px 5px;
+        font-size: 13px;
+    }
+    .footer-icon {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer-item:nth-child(4) {
+        font-size: 11px;
+        padding-left: 1rem;
+    }
 }
-
-.div-select > select {
-  font-size: 12px;
-
-}
-  input[type=submit] {
-    padding: 4px 5px;
-    font-size: 13px;
-
-}
-
-.footer-icon {
-  padding-left: 1rem;
-  padding-right: 1rem;
-
-}
-
-.footer-item:nth-child(4) {
-  font-size: 11px;
-  padding-left: 1rem;
-  
-}
-
-
-  
-  
-  
-  }
-  
-  

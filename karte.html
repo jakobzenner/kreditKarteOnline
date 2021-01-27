@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -11,108 +12,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartão de Crédito</title>
 </head>
+
 <body>
 
-<header>
- 
-    <h1 id="header-h1"><a href="index.html"><i class="fab fa-cc-mastercard"></i>Atila Cartões</a></h1>
-   
-</header>
+    <header>
 
- <div id="div-heading">
- <h1>Ótima  escolha! Para  solicitar  seu  novo  cartão, informe o seus dados :</h1>   
-</div>
+        <h1 id="header-h1"><a href="index.html"><i class="fab fa-cc-mastercard"></i>Atila Cartões</a></h1>
 
- <section id="formular-container">
-<div id="karte-input">
-    <form action="https://formspree.io/f/xwkwrarp" method="POST"   enctype="multipart/form-data">
-        <input type="text" name="Nome" placeholder="NOME COMPLETO">
-        
-        <div class="div-select">
-        <label for="cartao">Cartão</label>
-        <select id="cartao" name="Cartão">
-            <option value="Santander Free">Santander Free</option>
-            <option value="Santander Van Gogh Gold">Santander Van Gogh Gold</option>
-            <option value="Santander Select Platinum">Santander Select Platinum</option>
-        </select>
-        </div>
+    </header>
 
-        <input type="text" name="Endereço" placeholder="ENDEREÇO COM N°" >
-       
-        <div class="div-select">
-        <label for="estado">ESTADO</label>
-        <select id="estado" name="Estado">
-            <option value="AC">AC</option>
-            <option value="AL">AL</option>
-            <option value="AP">AP</option>
-            <option value="AM">AM</option>
-            <option value="BA">BA</option>
-            <option value="CE">CE</option>
-            <option value="ES">ES</option>
-            <option value="GO">GO</option>
-            <option value="MA">MA</option>
-            <option value="MT">MT</option>
-            <option value="MS">MS</option>
-            <option value="MG">MG</option>
-            <option value="PA">PA</option>
-            <option value="PB">PB</option>
-            <option value="PR">PR</option>
-            <option value="PE">PE</option>
-            <option value="PI">PI</option>
-            <option value="RJ">RJ</option>
-            <option value="RN">RN</option>
-            <option value="RS">RS</option>
-            <option value="RO">RO</option>
-            <option value="RR">RR</option>
-            <option value="SC">SC</option>
-            <option value="SP">SP</option>
-            <option value="SE">SE</option>
-            <option value="TO">TO</option>
-            <option value="DF">DF</option>
-
-
-
-            <option value="SP">SP</option>
-
-        </select>
-       </div>
-
-        <input type="text" name="Cidade" placeholder="CIDADE">
-        <input type="number" name="CEP" placeholder="CEP">
-        <input type="email" name="Email" placeholder="E-MAIL">
-        <input type="tel" id="phone" name="Celular" placeholder="NÚMERO DE TELEFONE">
-        <input type="number" name="CPF" placeholder="CPF">
-
-        <input type="submit" value="Enviar">  
-    </form>
-  </div>
-</section>
-
-<footer id="container-footer">
-
-    <div class="footer-item">
-    <h2 id="historia">Nossa História<span class="footer-icon-historia"><i class="fas fa-book-reader"></i></span></h2>       
-    <p>Atila Cartões surgiu no estado do Rio Grande do Sul, no ano de 2010 e desde então vem trazendo credibilidade e segurança para milhões de brasileiros.</p>
+    <div id="div-heading">
+        <h1>Ótima escolha! Para solicitar seu novo cartão, informe o seus dados :</h1>
     </div>
 
-    <h1 id="header-h1" class="footer-item"><a href="index.html"><i class="fab fa-cc-mastercard"></i>Atila Cartões</a></h1>
+    <section id="formular-container">
+        <div id="karte-input">
+            <!--Das Formular wurde mit dem FormSpree API verbunden-->
+            <form action="https://formspree.io/f/xwkwrarp" method="POST" enctype="multipart/form-data">
+                <input type="text" name="Nome" placeholder="NOME COMPLETO">
 
-    <div  class="footer-item">
-    <h2>Contato</h2> 
-    <span class="footer-icon">
-        <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i class="fas fa-envelope"></i></a>
-        <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
-        <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i class="fab fa-facebook"></i></a>
-    </span>
-   </div>
-      
-   <h1 class="footer-item"><i class="fas fa-copyright"></i>Copyright 2020 Jakob Zenner </h1> 
+                <div class="div-select">
+                    <label for="cartao">Cartão</label>
+                    <select id="cartao" name="Cartão">
+                        <option value="Santander Free">Santander Free</option>
+                        <option value="Santander Van Gogh Gold">Santander Van Gogh Gold</option>
+                        <option value="Santander Select Platinum">Santander Select Platinum</option>
+                    </select>
+                </div>
 
+                <input type="text" name="Endereço" placeholder="ENDEREÇO COM N°">
 
-</footer>
+                <div class="div-select">
+                    <label for="estado">ESTADO</label>
+                    <!--Alle Bundesstaaten aus Brasilien :) -->
+                    <select id="estado" name="Estado">
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                        <option value="DF">DF</option>
 
-    <script src="index.js"></script>
-    
+                    </select>
+                </div>
+
+                <input type="text" name="Cidade" placeholder="CIDADE">
+                <input type="number" name="CEP" placeholder="CEP">
+                <input type="email" name="Email" placeholder="E-MAIL">
+                <input type="tel" id="phone" name="Celular" placeholder="NÚMERO DE TELEFONE">
+                <input type="number" name="CPF" placeholder="CPF">
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer id="container-footer">
+
+        <div class="footer-item">
+            <h2 id="historia">Nossa História<span class="footer-icon-historia"><i class="fas fa-book-reader"></i></span>
+            </h2>
+            <p>Atila Cartões surgiu no estado do Rio Grande do Sul, no ano de 2010 e desde então vem trazendo credibilidade e segurança para milhões de brasileiros.</p>
+        </div>
+
+        <h1 id="header-h1" class="footer-item"><a href="index.html"><i class="fab fa-cc-mastercard"></i>Atila
+                Cartões</a></h1>
+
+        <div class="footer-item">
+            <h2>Contato</h2>
+            <span class="footer-icon">
+                <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y"
+                    target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i
+                        class="fab fa-facebook-messenger"></i></a>
+                <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+            </span>
+        </div>
+
+        <h1 class="footer-item"><i class="fas fa-copyright"></i>Copyright 2020 Jakob Zenner </h1>
+
+    </footer>
+
 </body>
+
 </html>

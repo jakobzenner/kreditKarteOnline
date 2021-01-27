@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,266 +15,210 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atila Cartões</title>
 </head>
+
 <body>
 
     <!--Anfang Layout-->
     <section>
         <div id="anfang-container">
 
-        <div class="logo-box">
-        <h1 id="logo"><i class="fab fa-cc-mastercard"></i>Atila Cartões</h1>
-        </div>
-
-        <!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="#home" id="logo">Atila Cartões</a>
-  <div id="links">
-    <a href="#karte">Solicite seu cartão<i class="fas fa-credit-card"></i></a>
-    <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target='_blank'>Falar com o consultor<i class="fas fa-user-tie"></i></a>
-    <a href="#historia">Nossa história<i class="fas fa-book-reader" style='font-size: 20px'></i></a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-
-        <div id="box-agent">
-            <div>
-            <img src="./img/agent.png"  id="agent-img" alt="Foto do atendente online">
+            <div class="logo-box">
+                <h1 id="logo"><i class="fab fa-cc-mastercard"></i>Atila Cartões</h1>
             </div>
-           <p id="animation-1">Olá , eu sou seu consultor autorizado do Atlia Cartões!</p>
+
+            <!-- Menü Hamburger für mobile -->
+            <div class="hamburgerMenu">
+                <a href="#home" id="logo">Atila Cartões</a>
+                <div id="links">
+                    <a href="#karte">Solicite seu cartão<i class="fas fa-credit-card"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target='_blank'>Falar com o consultor<i class="fas fa-user-tie"></i></a>
+                    <a href="#historia">Nossa história<i class="fas fa-book-reader" style='font-size: 20px'></i></a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <!--Ende des Hamburger Menü-->
+
+            <!--Box mit dem Bild-->
+            <div id="box-agent">
+                <div>
+                    <img src="./img/agent.png" id="agent-img" alt="Foto do atendente online">
+                </div>
+                <p>Olá , eu sou seu consultor autorizado do Atlia Cartões!</p>
+            </div>
+            <!--Nav Menü für Desktop-->
+            <div id="box-nav">
+                <nav>
+                    <ul>
+                        <li><a href='#karte'>Solicite seu cartão</a><i class="fas fa-credit-card"></i></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target='_blank'>Fale com o nosso consultor</a><i class="fas fa-user-tie"></i></li>
+                        <li><a href='#historia'>Nossa história</a><i class="fas fa-book-reader" style='font-size: 20px'></i></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <h1 id="anfang-text">Cartões de crédito sem anuidade!</h1>
+
+            <!--Button für die Karte auswahl-->
+            <div id="anfang-box-button">
+                <a href="#karte"><button type="submit">Faça o seu cartão</button></a>
+            </div>
+
+            <!--Mail und Social Medien icons-->
+            <div class="icons">
+
+                <a href="mailto:danilo.brito0208@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i
+                        class="fab fa-facebook-messenger"></i></a>
+                <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+
+            </div>
+
         </div>
-       
-        <div id="box-nav">
-         <nav>
-            <ul>
-                <li><a href='#karte'>Solicite seu cartão</a><i class="fas fa-credit-card"></i></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target='_blank'>Fale com o nosso consultor</a><i class="fas fa-user-tie"></i></li>
-                <li><a href='#historia'>Nossa história</a><i class="fas fa-book-reader" style='font-size: 20px'></i></li>
-            </ul>
-         </nav>
-        </div>
-        
-      
-        <h1 id="anfang-text">Cartões de crédito sem anuidade!</h1>
-
-        <div id="anfang-box-button">
-            <a href="#karte"><button type="submit">Faça o seu cartão</button></a> 
-        </div>
-
-        <div class="icons">
-
-            <a href="mailto:danilo.brito0208@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
-            <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i class="fab fa-facebook"></i></a>
-
-        </div>
-
-       </div>
 
     </section>
+
+
     <!--Satz vor den Karten Boxes-->
-    <div id="karte" class="karte-erste-heading" >  
+    <div id="karte" class="karte-erste-heading">
         <h2>Escolha abaixo o cartão que mais combina com você :</h2>
     </div>
 
-    <!--Container für die Slides-->
-    </div>
-
-   <div class="w3-content w3-display-container" style="max-width:800px">
+    <!--Container für die Slides! Hier würde W3 framework verwendet-->
+    <div class="w3-content w3-display-container" style="max-width:800px">
     </div>
     <!--Karte - Content-->
     <section id="container-karte">
 
-         <!--Box-1 wo die Karte beigefügt werden können-->
-         
-         <div class="mySlides" id="container-karte-content">
-          
-        <div id="karte-img-box"> 
-        <img src="./img/karte.png" alt="Cartão de crédito">
-         <p> Foto ilustrativa. </p>
-        </div>
-
-         <div>
-         <h2 id="karte-heading-content">Cartão Santander free</h2>
-
-         <ul class="karte-list">
-             <li>Tarifa R$13,70 mensal paga ao Santander</li>
-             <li>Limite entre R$300,00 a R$1.000,00</li>
-         </ul>
-         
-         <div class="box-button">
-          <a href="karte.html"><button>Solicitar cartão<i class="fas fa-arrow-right"></i></button></a>
-         </div>
-
-        </div>
-
-        </div>
-        <!--Box-2 wo die Karte beigefügt werden können-->
-         
+        <!--Box-1 wo die Karte beigefügt werden können-->
         <div class="mySlides" id="container-karte-content">
-          
-            <div id="karte-img-box"> 
-            <img src="./img/vanGogh-karte.jpg" alt="Cartão de crédito">
-             <p> Foto ilustrativa. </p>
+
+            <div id="karte-img-box">
+                <img src="./img/karte.png" alt="Cartão de crédito">
+                <p> Foto ilustrativa. </p>
             </div>
-    
-             <div>
-             <h2 id="karte-heading-content">Cartão Santander Van Gogh Gold</h2>
-    
-             <ul class="karte-list">
-                 <li>Tarifa R$72,20 mensal para ao Santander (insento nos 3 primeiros meses)</li>
-                 <li>Limite entre R$1.000,00 a R$3.500,00</li>
-             </ul>
-             
-             <div class="box-button">
-              <a href="karte.html"><button>Solicitar cartão<i class="fas fa-arrow-right"></i></button></a>
-             </div>
-    
+
+            <div>
+                <h2 id="karte-heading-content">Cartão Santander free</h2>
+
+                <ul class="karte-list">
+                    <li>Tarifa R$13,70 mensal paga ao Santander</li>
+                    <li>Limite entre R$300,00 a R$1.000,00</li>
+                </ul>
+
+                <div class="box-button">
+                    <a href="karte.html"><button>Solicitar cartão<i class="fas fa-arrow-right"></i></button></a>
+                </div>
+
             </div>
-    
+
+        </div>
+
+        <!--Box-2 wo die Karte beigefügt werden können-->
+        <div class="mySlides" id="container-karte-content">
+
+            <div id="karte-img-box">
+                <img src="./img/vanGogh-karte.jpg" alt="Cartão de crédito">
+                <p> Foto ilustrativa. </p>
             </div>
-            <!--Box-3 wo die Karte beigefügt werden können-->
-         
-         <div class="mySlides" id="container-karte-content">
-          
-            <div id="karte-img-box"> 
-            <img src="./img/selectPlatinum-karte.jpg" alt="Cartão de crédito">
-             <p> Foto ilustrativa. </p>
+
+            <div>
+                <h2 id="karte-heading-content">Cartão Santander Van Gogh Gold</h2>
+
+                <ul class="karte-list">
+                    <li>Tarifa R$72,20 mensal para ao Santander (insento nos 3 primeiros meses)</li>
+                    <li>Limite entre R$1.000,00 a R$3.500,00</li>
+                </ul>
+
+                <div class="box-button">
+                    <a href="karte.html"><button>Solicitar cartão<i class="fas fa-arrow-right"></i></button></a>
+                </div>
+
             </div>
-    
-             <div>
-             <h2 id="karte-heading-content">Cartão Santander Select Platinum</h2>
-    
-             <ul class="karte-list">
-                 <li>Tarifa R$89,90 mensal paga ao Santander (insento nos 3 primeiros meses.</li>
-                 <li>Limite entre R$1.200,00 a R$7.500,00</li>
-             </ul>
-             
-             <div class="box-button">
-              <a href="karte.html"><button>Solicitar cartão<i class="fas fa-arrow-right"></i></button></a>
-             </div>
-    
+
+        </div>
+
+        <!--Box-3 wo die Karte beigefügt werden können-->
+        <div class="mySlides" id="container-karte-content">
+
+            <div id="karte-img-box">
+                <img src="./img/selectPlatinum-karte.jpg" alt="Cartão de crédito">
+                <p> Foto ilustrativa. </p>
             </div>
-    
+
+            <div>
+                <h2 id="karte-heading-content">Cartão Santander Select Platinum</h2>
+
+                <ul class="karte-list">
+                    <li>Tarifa R$89,90 mensal paga ao Santander (insento nos 3 primeiros meses.</li>
+                    <li>Limite entre R$1.200,00 a R$7.500,00</li>
+                </ul>
+
+                <div class="box-button">
+                    <a href="karte.html"><button>Solicitar cartão<i class="fas fa-arrow-right"></i></button></a>
+                </div>
+
             </div>
-       
+
+        </div>
 
 
-      
-
-
-        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%" >
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
             <!-- <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>-->
             <!-- <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>-->
-             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-           </div>
-         </div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+        </div>
 
-        </section>
-
-
-            <h1 id="msg-nachKateBox">Aprovação mediante a análise bancária!</h1>
-            
-           <h1 id="msg-wichtig"> <i class="fas fa-exclamation-triangle"></i>IMPORTANTE :</h1>
-            <p id="wichtig-paragraph">Negativado tem possibilidade de ser aprovado, porém não pode ter conta nem dívida no Banco Santander !</p>
-           
-        
+    </section>
 
 
-            <footer id="container-footer">
+    <h1 id="msg-nachKateBox">Aprovação mediante a análise bancária!</h1>
 
-              <div class="footer-item">
-              <h2 id="historia">Nossa História<span class="footer-icon-historia"><i class="fas fa-book-reader"></i></span></h2>       
-              <p>Atila Cartões surgiu no estado do Rio Grande do Sul, no ano de 2010 e desde então vem trazendo credibilidade e segurança para milhões de brasileiros.</p>
-              </div>
-          
-              <h1 id="header-h1" class="footer-item"><a href="index.html"><i class="fab fa-cc-mastercard"></i>Atila Cartões</a></h1>
-          
-              <div  class="footer-item">
-              <h2 id="contato">Contato</h2> <br>
-              <span class="footer-icon">
-                  <a href="mailto:danilo.brito0208@gmail.com" target="_blank" target="_blank"><i class="fas fa-envelope"></i></a>
-                  <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                  <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
-                  <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i class="fab fa-facebook"></i></a>
-              </span>
-             </div>
-                
-             <h1 class="footer-item"><i class="fas fa-copyright"></i>Copyright 2020 Jakob Zenner </h1> 
-          
-          
-          </footer>
-
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-        
-        /*function plusDivs(n) {
-        }
-        */
-        
-        function currentDiv(n) {
-          showDivs(slideIndex = n);
-        }
-        
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          if (n > x.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = x.length}
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" w3-white", "");
-          }
-          x[slideIndex-1].style.display = "inline-flex";  
-          dots[slideIndex-1].className += " w3-white";
-        }
-        
-        var myIndex = 0;
-        carousel();
-        
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "inline-flex";  
-          setTimeout(carousel, 3000); // Change image every 2 seconds
-        }
-
-        function myFunction() {
-  var x = document.getElementById("links");
-  let b = document.getElementById("box-agent");
-  let logo = document.querySelector("a#logo");
-
-  if ((x.style.display  === "block") || (b.style.display === "none") || (logo.style.backgroundColor === "rgb(35, 54, 154)")) {
-    x.style.display = "none";
-    b.style.display = "block";
-    logo.style.backgroundColor = "rgb(35, 54, 154,0)";
-  }  
-  else {
-    x.style.display = "block";
-    b.style.display = "none";
-    logo.style.backgroundColor = "rgb(35, 54, 154)";
+    <h1 id="msg-wichtig"> <i class="fas fa-exclamation-triangle"></i>IMPORTANTE :</h1>
+    <p id="wichtig-paragraph">Negativado tem possibilidade de ser aprovado, porém não pode ter conta nem dívida no Banco Santander !</p>
 
 
 
-  }
-}
+
+    <footer id="container-footer">
+
+        <div class="footer-item">
+            <h2 id="historia">Nossa História<span class="footer-icon-historia"><i class="fas fa-book-reader"></i></span>
+            </h2>
+            <p>Atila Cartões surgiu no estado do Rio Grande do Sul, no ano de 2010 e desde então vem trazendo credibilidade e segurança para milhões de brasileiros.</p>
+        </div>
+
+        <h1 id="header-h1" class="footer-item"><a href="index.html"><i class="fab fa-cc-mastercard"></i>Atila
+                Cartões</a></h1>
+
+        <div class="footer-item">
+            <h2 id="contato">Contato</h2> <br>
+            <span class="footer-icon">
+                <a href="mailto:danilo.brito0208@gmail.com" target="_blank" target="_blank"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5571987746107&fbclid=IwAR0pv2RIFw1LEN2Wyvbsx96r7brGpTqVzXylnGh4UoYvSqYneiKnFg3TC0Y"
+                    target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/messages/t/103380444918613" target="_blank"><i
+                        class="fab fa-facebook-messenger"></i></a>
+                <a href="https://www.facebook.com/Atila-Cart%C3%B5es-103380444918613/" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+            </span>
+        </div>
+
+        <h1 class="footer-item"><i class="fas fa-copyright"></i>Copyright 2020 Jakob Zenner </h1>
 
 
+    </footer>
 
-        </script>
+    <script src="script/script.js"></script>
+
 </body>
+
 </html>
